@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/projects/sw-matlab-actlab/!svn/ver/3/weka
+END
+WekaTrainClassifier.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/3/weka/WekaTrainClassifier.m
+END
+WekaCrossValidate.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/3/weka/WekaCrossValidate.m
+END
+WekaTestInstances.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/3/weka/WekaTestInstances.m
+END
+WriteARFFHeader.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/3/weka/WriteARFFHeader.m
+END
+WriteARFFData.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/3/weka/WriteARFFData.m
+END
+isWeka.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/3/weka/isWeka.m
+END
+WekaTestFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/3/weka/WekaTestFeatures.m
+END

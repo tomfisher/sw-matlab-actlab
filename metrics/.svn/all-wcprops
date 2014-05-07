@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/projects/sw-matlab-actlab/!svn/ver/59/metrics
+END
+prmetrics_mergeclass.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_mergeclass.m
+END
+prmetrics_plotbars.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_plotbars.m
+END
+fsmetrics_plotscree.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/fsmetrics_plotscree.m
+END
+cmetrics_mkstats.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/cmetrics_mkstats.m
+END
+prmetrics_add.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_add.m
+END
+cmetrics_hist2ratio.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/cmetrics_hist2ratio.m
+END
+prmetrics_sumsum.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/6/metrics/prmetrics_sumsum.m
+END
+prmetrics_flip.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_flip.m
+END
+prmetrics_getfields.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_getfields.m
+END
+generateROC.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/generateROC.m
+END
+scmetrics_plotroc.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/scmetrics_plotroc.m
+END
+prmetrics_fromsegments.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_fromsegments.m
+END
+prmetrics_estimatethresholds.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_estimatethresholds.m
+END
+prmetrics_mkstruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_mkstruct.m
+END
+prmetrics_plot.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_plot.m
+END
+prmetrics_getpr.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_getpr.m
+END
+prmetrics_update.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_update.m
+END
+plotmap.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/plotmap.m
+END
+prmetrics_softalign.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/21/metrics/prmetrics_softalign.m
+END
+prmetrics_sort.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_sort.m
+END
+computeROC.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/computeROC.m
+END
+scmetrics_append.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/scmetrics_append.m
+END
+prmetrics_findoptimum.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_findoptimum.m
+END
+prmetrics_prprune.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/6/metrics/prmetrics_prprune.m
+END
+prmetrics_prunepr.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_prunepr.m
+END
+prmetrics_paretopr.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_paretopr.m
+END
+prmetrics_classmetrics.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_classmetrics.m
+END
+cmetrics_mkmatrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/37/metrics/cmetrics_mkmatrix.m
+END
+plotbars.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/plotbars.m
+END
+scmetrics_mkstruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/scmetrics_mkstruct.m
+END
+prmetrics_printstruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_printstruct.m
+END
+prmetrics_plotpr2.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/59/metrics/prmetrics_plotpr2.m
+END
+scmetrics_update.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/scmetrics_update.m
+END
+prmetrics_plotarea.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_plotarea.m
+END
+prmetrics_pr2metric.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/6/metrics/prmetrics_pr2metric.m
+END
+prmetrics_skewsweep.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_skewsweep.m
+END
+prmetrics_latex.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/6/metrics/prmetrics_latex.m
+END
+cmetrics_plotmap.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/50/metrics/cmetrics_plotmap.m
+END
+prmetrics_findoptimum2.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_findoptimum2.m
+END
+prmetrics_elementsum.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_elementsum.m
+END
+prmetrics_findoptimumfromseg.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_findoptimumfromseg.m
+END
+prmetrics_avgpr.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_avgpr.m
+END
+prmetrics_plotpr.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/6/metrics/prmetrics_plotpr.m
+END
+cmetrics_mkmatrixfromseg.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/cmetrics_mkmatrixfromseg.m
+END
+emetrics_finderrors.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/emetrics_finderrors.m
+END
+prmetrics_splitclass.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_splitclass.m
+END
+emetrics_errormatrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/emetrics_errormatrix.m
+END
+prmetrics_countoverlap.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/prmetrics_countoverlap.m
+END
+cmetrics_mkmatrixfromcell.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/metrics/cmetrics_mkmatrixfromcell.m
+END

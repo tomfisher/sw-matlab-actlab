@@ -1,0 +1,383 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/50/segmentation
+END
+segment_plotsimilarity.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_plotsimilarity.m
+END
+segment_getincluded.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_getincluded.m
+END
+segment_findincluded.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_findincluded.m
+END
+segment_add.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/38/segmentation/segment_add.m
+END
+segment_plotmark.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_plotmark.m
+END
+segment_sub.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_sub.m
+END
+segment_enlage.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_enlage.m
+END
+segment_remove.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_remove.m
+END
+segment_delovlist.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_delovlist.m
+END
+segment_mergespec2mapspec.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/sw-matlab-actlab/!svn/ver/50/segmentation/segment_mergespec2mapspec.m
+END
+segment_largesplit.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_largesplit.m
+END
+calc_cost.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/calc_cost.m
+END
+segment_plotseglist.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_plotseglist.m
+END
+segment_distancejoin.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_distancejoin.m
+END
+segment_swrone.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_swrone.m
+END
+segment_createsplit.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_createsplit.m
+END
+segment_compare.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_compare.m
+END
+cla_findlabelgroupforclass.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/cla_findlabelgroupforclass.m
+END
+segment_randomize.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_randomize.m
+END
+segment_getid.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_getid.m
+END
+cla_makesectionfeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/cla_makesectionfeatures.m
+END
+segment_merge.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_merge.m
+END
+segment_createlist.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_createlist.m
+END
+segment_markincluded.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_markincluded.m
+END
+segment_plotposition.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_plotposition.m
+END
+segment_bu.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_bu.m
+END
+segment_resample.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_resample.m
+END
+segment_simplemerge.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_simplemerge.m
+END
+segment_isseg.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_isseg.m
+END
+segment_isinbounds.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_isinbounds.m
+END
+segment_plot.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_plot.m
+END
+segment_ploteye.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_ploteye.m
+END
+cla_labelfilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/cla_labelfilter.m
+END
+segment_plote.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_plote.m
+END
+segment_sizeprune.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_sizeprune.m
+END
+segment_getconf.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_getconf.m
+END
+segment_sort.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_sort.m
+END
+segment_prune.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_prune.m
+END
+cla_getsegmentation.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/cla_getsegmentation.m
+END
+segment_findgaps.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_findgaps.m
+END
+segment_findequals.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_findequals.m
+END
+segment_swab.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_swab.m
+END
+segment_findidentical.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_findidentical.m
+END
+segment_item.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_item.m
+END
+segment_restoreswidx.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_restoreswidx.m
+END
+segment_makelist.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_makelist.m
+END
+segment_shiftlist.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_shiftlist.m
+END
+cla_seqfinder.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/cla_seqfinder.m
+END
+segment_splitsection.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_splitsection.m
+END
+segment_countoverlap.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_countoverlap.m
+END
+segment_count.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_count.m
+END
+segment_issorted.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_issorted.m
+END
+segment_findlabelsforclass.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_findlabelsforclass.m
+END
+segment_findsimilar.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_findsimilar.m
+END
+segment_evalthreshold.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_evalthreshold.m
+END
+segment_isoverlap.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_isoverlap.m
+END
+segment_window.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_window.m
+END
+segment_findoverlap.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_findoverlap.m
+END
+segment_createswlist.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_createswlist.m
+END
+segment_size.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_size.m
+END
+segment_classfilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/17/segmentation/segment_classfilter.m
+END
+segment_filterlargesplit.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_filterlargesplit.m
+END
+segment_get.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/segmentation/segment_get.m
+END

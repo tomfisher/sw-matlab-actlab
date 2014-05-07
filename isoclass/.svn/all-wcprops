@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projects/sw-matlab-actlab/!svn/ver/72/isoclass
+END
+createcv.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/createcv.m
+END
+main_isoclassify.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/11/isoclass/main_isoclassify.m
+END
+main_isofeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/72/isoclass/main_isofeatures.m
+END
+classcv.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/classcv.m
+END
+cvroc2.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/cvroc2.m
+END
+dtw.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/dtw.m
+END
+main_isoclustering.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/main_isoclustering.m
+END
+main_isohmm.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/main_isohmm.m
+END
+main_isoclassstats.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/main_isoclassstats.m
+END
+ncc.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/ncc.m
+END
+checkcv.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/checkcv.m
+END
+main_isofanalysis.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/main_isofanalysis.m
+END
+EditDist.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/EditDist.m
+END
+prepisocv.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/prepisocv.m
+END
+editdistwrapper.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/editdistwrapper.m
+END
+classgroupcv.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/classgroupcv.m
+END
+naivebayes.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/71/isoclass/naivebayes.m
+END
+knn.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/knn.m
+END
+main_isocluststats.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/main_isocluststats.m
+END
+nearestcentroid.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/isoclass/nearestcentroid.m
+END

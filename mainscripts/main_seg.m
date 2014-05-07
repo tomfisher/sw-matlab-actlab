@@ -1,0 +1,154 @@
+% main_seg
+% 
+% Perform segmentation according to parameters and save result
+
+% requires
+Partlist;
+% FeatureString;
+% DSSet;
+% SegConfig;
+
+fprintf('\n');
+VERSION = 'V014';
+fprintf('\n%s: %s', mfilename, VERSION);
+StartTime = clock;
+
+if ~exist('FeatureString','var'),	error('Variable FeatureString not provided.'); end;
+
+if ~exist('DSSet','var'), error('Variable DSSet not provided.'); end;
+if ~exist('DoSave','var'), DoSave = true; end;
+
+% -------------------------------------------------------------------------
+
+if ~exist('SegConfig','var'), error('Variable SegConfig not provided.'); end;
+if ~isfield(SegConfig, 'Name'), SegConfig.Name = 'FIX'; end;
+if strcmpi(SegConfig.Name(1:3), 'FIX') && (~isfield(SegConfig, 'Mode')), 
+	SegConfig.Mode = ''; 
+end;
+if ~strcmpi(SegConfig.Name(1:3), 'FIX'), SegConfig.Mode = cell2str(FeatureString, '-'); end;
+
+
+initmain_segconfig_setup;
+
+% -------------------------------------------------------------------------
+
+
+usesource = cell2matrix(unique(fb_getsources(FeatureString)));
+usesystem = cell2matrix(unique(repos_getsysfromsensor(Repository, Partlist(1), usesource)));
+
+
+
+fprintf('\n');
+
+% process all PIs
+for Partindex = Partlist
+	sysindex = repos_getsysindex(Repository, Partindex, usesystem);
+	if isempty(sysindex), continue; end;
+	if isempty(Repository.UseParts == Partindex), continue; end;
+
+	filename = repos_makefilename(Repository, 'indices', Partindex, 'prefix', SegConfig.Name, 'suffix', SegConfig.Mode, 'subdir', 'SEG');
+	if exist(filename,'file') && (~test('forcewrite') || (forcewrite==false))
+		fprintf('\n%s: File %s exist and forcewrite=true not set, skipping.', mfilename, filename);
+		fprintf('\n');
+		continue;
+	end;
+	fprintf('\n%s: Segmentation file: %s...', mfilename, filename);
+
+	fprintf('\n%s: Load data set %u...', mfilename, Partindex);
+	thisDataStruct = makedatastruct(Repository, Partindex, FeatureString, DSSet);
+	if (length(thisDataStruct) > 1), error('Works on one feature only!'); end;
+
+	datasize = fb_getdatasize(thisDataStruct);
+	partsize = repos_getpartsize(Repository, Partindex, 'SampleRate', thisDataStruct.SampleRate);
+
+	% need to ensure proper size when computing the segmentation feature
+	% (should correspond to partsize!)
+	fprintf('\n%s: Process features for part %u...', mfilename, Partindex);
+	thisFeatures = makefeatures([1 datasize], thisDataStruct, 'swmode', 'cont', 'CheckForNaNs', false);
+	fprintf('\n%s: data size: %u, feature size: %u, partsize: %u', mfilename, ...
+		datasize, size(thisFeatures,1), partsize);
+	if (datasize ~= partsize), fprintf('\n%s: WARNING: Data size is not aligned!', mfilename); end;
+	%if (size(thisFeatures,1) ~= datasize), error('MATLAB:main_seg', 'Feature size is not aligned!'); end;
+
+	% create sliding window params if not existing
+	% Used by segmentation adaptations when feature was computed by a
+	% sliding window procedure.
+	if ~isfield(thisDataStruct, 'swsize'), thisDataStruct.swsize = 1; end;
+	if ~isfield(thisDataStruct, 'swstep'), thisDataStruct.swstep = 1; end;
+
+	seglist = [];
+	for f = 1:size(thisFeatures,2)
+		fprintf('\n%s: Segmentation feature: %s...', mfilename, thisDataStruct.FeatureString{f});
+
+		switch upper(SegConfig.Name)
+			case { 'FIX', 'FIX1', 'FIX2', 'FIX4', 'FIX8' }
+				windowsize = round(SegConfig.Window*thisDataStruct.SampleRate/thisDataStruct.swstep);
+				seglist = segment_createswlist(windowsize, windowsize, size(thisFeatures,1));
+
+			case 'SWAB'
+				seglist = [seglist;
+					segment_swab(thisFeatures(:,f), SegConfig.SWABConfig, 'maxbuffer', SegConfig.Maxbuffer, 'verbose', 2) ];
+
+			case 'PAA'
+				error('To be implemented.');
+			case 'SAX'
+				error('To be implemented.');
+			otherwise
+				error('SegConfig.Name %s not understood.', SegConfig.Name);
+		end;
+	end; % for f
+
+	
+	% re-expand seglist if sliding window step-size>1 for feature computation 
+	seglist = segment_restoreswidx(seglist, thisDataStruct.swsize, thisDataStruct.swstep);
+	if (thisDataStruct.swstep > 1)
+		fprintf('\n%s: Re-expanded seglist (stepsize=%u).', mfilename, thisDataStruct.swstep);
+	end;
+
+	% sort seglist
+	seglist = segment_sort(seglist,2);
+	
+	% remove last entry if larger than datasize
+	if any(seglist(:,2) > datasize), 
+		fprintf('\n%s: %u segments in seglist are too large, removed.', mfilename, sum(seglist(:,2) > datasize)); 
+	end;
+	seglist(seglist(:,2) > datasize, :) = [];
+	
+	fprintf('\n%s: Completed seglist, first+last entry are: %s', mfilename, mat2str(seglist([1 end],:)));
+
+
+	if (0)
+		figure; plot(thisFeatures(:,1)); hold on;
+		segment_plotmark(thisFeatures(:,1), seglist, 'style', 'ro');
+
+		% t
+		t = thisFeatures(2000:4000);
+		seglist = segment_swab(t, SegConfig.SWABConfig, 'maxbuffer', SegConfig.Maxbuffer, 'verbose', 2);
+		figure; plot(t); hold on; segment_plotmark(t, seglist, 'style', 'ro');
+		% clear SWABConfig;
+		% SWABConfig(1).method = 'LR_SS';    SWABConfig(1).maxcost = 50;
+		% SWABConfig(2).method = 'SIM_RSLP'; SWABConfig(2).maxcost = 0.1;
+	end;
+
+	fprintf('\n%s: Part %u, total segments: %u.', mfilename, Partindex, size(seglist,1));
+
+	% SAVE
+	if (DoSave)
+		SaveTime = clock;
+		fprintf('\n%s: Save %s...', mfilename, filename);
+		segsps = thisDataStruct.SampleRate;  % OAM REVISIT: This is a hack
+
+		save(filename, ...
+			'FeatureString', 'SegConfig', ...
+			'usesystem', 'usesource', 'seglist', 'segsps', ...
+			'Partindex', 'DSSet', ...
+			'SaveTime', 'VERSION');
+	else
+		fprintf('\n%s: NOT saved.', mfilename);
+	end;
+	fprintf('done.\n');
+	% see cla_getsegmentation()
+
+end; % for Partindex
+fprintf('\n%s: Finished. (CPU: %.0fs).\n', mfilename, etime(clock, StartTime));
+

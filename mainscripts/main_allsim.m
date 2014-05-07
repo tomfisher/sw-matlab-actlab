@@ -1,0 +1,164 @@
+% main_allsim
+%
+% See also: main_simsweep, main_simbatch, main_simtaskiterator
+% 
+% Copyright 2007-2009 Oliver Amft
+% 
+% requires:
+% fidx - job identifier (elements separated by '_')
+%   1. element: simulation id
+%   2. element: preprocessing id
+%   3... free
+
+% keep('fidx', 'allsim_*');
+keep('fidx', 'allsim_*','job','classes');
+
+allsim_StartTime = clock;
+
+if ~exist('forcewrite','var'), forcewrite = false; end;
+
+% Spot after job OR configure only, do not run JobList at all
+if ~exist('allsim_stopafterjob','var'), allsim_stopafterjob = inf; end;
+
+% batch mode (not used)
+if ~exist('allsim_batchmode','var'), allsim_batchmode = false; end;
+
+% wait for config 
+if ~exist('allsim_dontwait','var'), allsim_dontwait = false; end;
+
+% set email address
+if ~exist('allsim_myemailaddress','var') 
+    if exist('myemailaddress.m', 'file'),     allsim_myemailaddress = myemailaddress; 
+    else allsim_myemailaddress = ''; end
+end;
+
+initdata;
+
+% -------------------------------------------------------------------------
+
+if ~exist('fidx', 'var'), fidx = 'fidx_not_specified'; end;
+
+allsim_jobspec;
+
+if ~exist('Parts','var'), Parts = Repository.UseParts; end;
+if ~exist('MergeClassSpec','var'), MergeClassSpec = []; end;
+
+if ~exist('JobList','var'), JobList = {'JobList_not_specified'}; end;
+if ~iscell(JobList), JobList = cellstr(JobList); end;
+
+if ~exist('UserMode','var'), UserMode = 'intrasubject'; end;
+if ~exist('SubjectList','var'), SubjectList = repos_getsubjects(Repository, Repository.UseParts); end;
+if ~iscell(SubjectList), SubjectList = cellstr(SubjectList); end;
+
+if ~exist('section_jitter','var'), section_jitter = 0.5; end;
+
+
+% -------------------------------------------------------------------------
+
+% Global feature sets
+
+% determine task title
+if isempty(getenv('STY'))
+	tasktitle = [getenv('HOSTNAME') ' ALLSIM ' fidx ];
+else
+	tasktitle = [getenv('STY') ' ALLSIM ' fidx ];
+end;
+
+
+% -------------------------------------------------------------------------
+
+fprintf('\n--- V008 --- %s -----\n', tasktitle);
+fprintf('\n fidx            : ''%s'' ', fidx);
+fprintf('\n');
+fprintf('\n directory       : %s', pwd);
+fprintf('\n UserMode        : %s', UserMode);
+fprintf('\n SubjectList     : {%s}', cell2str(SubjectList, ','));
+fprintf('\n JobList         : {%s}', cell2str(JobList, ','));
+fprintf('\n Parts           : %s', mat2str(Parts));
+fprintf('\n TargetClasses   : %s', mat2str(TargetClasses));
+fprintf('\n MergeClassSpec  : {%s}', cell2str(MergeClassSpec, ','));
+% fprintf('\n section_jitter  : %.2f', section_jitter);
+fprintf('\n stop after job  : %s', mat2str(allsim_stopafterjob));
+fprintf('\n forcewrite      : %s', mat2str(forcewrite));
+fprintf('\n Session CPU time: %s', my_time2str(my_timedim(cputime, 'sec', 'hr'), 'ShowDays', false) );
+fprintf('\n Max nr of CPUs  : %u', feature('numCores') ); %maxNumCompThreads);
+fprintf('\n');
+
+if (~allsim_batchmode) && (~allsim_dontwait)
+	fprintf('\n-- Press CTRL-C to interrupt ----------------------------------');
+	countdown(5, 'premsg', 'Start in', 'verbose', 1);
+	% fprintf('\n%s: Started at: %s\n', mfilename, datestr(now));
+end;
+
+fidxel = fb_getelements(fidx);
+
+
+switch lower(UserMode)
+	case {'all', 'none'}
+		Partlist = Parts;
+		thisSubjectList = {''};
+
+	case {'intersubject', 'newsubject'}
+		% user-dependent or user-independent
+		%if (strcmpi('intersubject', UserMode)) || (strcmpi('newsubject', UserMode))  %(strcmp('ALLUSERS', Subject)) ||
+		Partlist = [];
+		for subjectnr = 1:max(size(SubjectList))
+			Subject = SubjectList{subjectnr};
+
+			fprintf('\n%s: Including subject: %s', mfilename, Subject);
+			%repos_sortpartsforsubject(Repository, Parts);
+			Partlist = [ Partlist repos_getpartsforsubject(Repository, Parts, Subject) ];
+		end;
+
+		thisSubjectList = {'ALLUSERS'}; % this is a hack!
+
+        % (mk) Added 'dayvalidation' mode
+	case {'intrasubject', 'daysvalidation'}
+		thisSubjectList = SubjectList;
+		% other variables set in subject loop below
+        
+	otherwise
+		error('UserMode not supported.');
+end;
+
+
+
+for subjectnr = 1:length(thisSubjectList)
+	Subject = thisSubjectList{subjectnr};
+	SimSetID = [Subject fidxel{2:end}];
+
+	fprintf('\n%s: Subject: %s  SimSetID: %s', mfilename, Subject, SimSetID);
+
+    % (mk) Added 'daysvalidation' mode
+	%if (strcmpi('intrasubject', UserMode))
+    switch lower(UserMode)
+        case {'intrasubject', 'daysvalidation'}
+            Partlist = repos_getpartsforsubject(Repository, Parts, Subject);
+            
+        otherwise
+            ...
+    end;
+	if isempty(Partlist), continue; end;
+
+
+	main_simtaskiterator;
+end; % for subjectnr
+
+
+allsim_StopTime = clock;
+
+
+if (allsim_stopafterjob>=inf),
+	str = '';
+	str = strappend( str, sprintf('\n%s: All jobs completed: %s', mfilename, fidx) );
+
+	str = strappend( str, sprintf('\n%s: Start: %s', mfilename, datestr(allsim_StartTime)) );
+	str = strappend( str, sprintf('\n%s: Stop: %s', mfilename, datestr(allsim_StopTime)) );
+	str = strappend( str, sprintf('  runtime: %s', my_time2str(my_timedim(etime(allsim_StopTime, allsim_StartTime), 'sec', 'hr')) ) );
+	str = strappend( str, sprintf('\n%s: Session CPU time: %s', mfilename, my_time2str(my_timedim(cputime, 'sec', 'hr'), 'ShowDays', false) ) );
+	str = strappend( str, sprintf('\n\n') );
+	fprintf(str);
+
+	email(allsim_myemailaddress, [tasktitle ' DONE.'], 'message', str);
+end;
+

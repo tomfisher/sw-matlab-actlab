@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/projects/sw-matlab-actlab/!svn/ver/48/sigproc
+END
+tsFixData.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/tsFixData.m
+END
+regress2lines.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/regress2lines.m
+END
+my_upsample.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/my_upsample.m
+END
+equiresample.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/48/sigproc/equiresample.m
+END
+tsinterpolate.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/tsinterpolate.m
+END
+hillClimbing.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/hillClimbing.m
+END
+mkclipping.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/mkclipping.m
+END
+mergestreams.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/41/sigproc/mergestreams.m
+END
+rms.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/rms.m
+END
+normv.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/normv.m
+END
+getspectrum.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/getspectrum.m
+END
+clipnormstandardise.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/clipnormstandardise.m
+END
+mnormalise.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/mnormalise.m
+END
+ffthist.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/ffthist.m
+END
+shiftnorm.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/shiftnorm.m
+END
+smooth.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/smooth.m
+END
+tsFixSuuntoHRMData.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/tsFixSuuntoHRMData.m
+END
+my_downsample.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/my_downsample.m
+END
+mstandardise.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/mstandardise.m
+END
+hillClimbing2.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/hillClimbing2.m
+END
+glitchFilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/glitchFilter.m
+END
+equidistdata.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/39/sigproc/equidistdata.m
+END
+mclipping.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/mclipping.m
+END
+spectrogram_quick.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/spectrogram_quick.m
+END
+hillClimbingUA.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/sigproc/hillClimbingUA.m
+END

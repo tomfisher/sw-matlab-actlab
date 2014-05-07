@@ -1,0 +1,335 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/sw-matlab-actlab/!svn/ver/75/mainscripts
+END
+main_marker_spotviewlabels.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_marker_spotviewlabels.m
+END
+initmain_CVSectionBounds_Seq.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_CVSectionBounds_Seq.m
+END
+initmain.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/72/mainscripts/initmain.m
+END
+main_dbstats.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_dbstats.m
+END
+main_marker_altlabels.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_marker_altlabels.m
+END
+main_copyclaalign.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_copyclaalign.m
+END
+main_reposdynmarker.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_reposdynmarker.m
+END
+marker_player_playnancy.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/marker_player_playnancy.m
+END
+findmarkerdatafile.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/60/mainscripts/findmarkerdatafile.m
+END
+initmain_segconfig_setup.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_segconfig_setup.m
+END
+main_marker_isoviewlabels.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_marker_isoviewlabels.m
+END
+main_marker_spareplot.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_marker_spareplot.m
+END
+initmain_samplesegments.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_samplesegments.m
+END
+initmain_trainconfidence.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_trainconfidence.m
+END
+main_markerDataStruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_markerDataStruct.m
+END
+prepviewlabels.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/prepviewlabels.m
+END
+initmain_trainlabelSectionSize.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_trainlabelSectionSize.m
+END
+main_marker.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/12/mainscripts/main_marker.m
+END
+main_allsim.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_allsim.m
+END
+main_marker_chewlabeling.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_marker_chewlabeling.m
+END
+initmain_labellistClipping.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_labellistClipping.m
+END
+main_markersegments.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_markersegments.m
+END
+initmain_segconfig.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/61/mainscripts/initmain_segconfig.m
+END
+main_compareclafiles.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_compareclafiles.m
+END
+main_simbatch.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_simbatch.m
+END
+initmain_CVSectionBounds_Label.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_CVSectionBounds_Label.m
+END
+initmain_FilterLabels.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_FilterLabels.m
+END
+main_liveplot.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_liveplot.m
+END
+initmain_labellistLengthSelect.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_labellistLengthSelect.m
+END
+main_contfeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/75/mainscripts/main_contfeatures.m
+END
+main_getdatafromdb.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_getdatafromdb.m
+END
+initmain_onetraintest.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_onetraintest.m
+END
+main_dummysim.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_dummysim.m
+END
+initmain_ExpandSimSetID.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_ExpandSimSetID.m
+END
+main_prepmarker.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/65/mainscripts/main_prepmarker.m
+END
+main_datamarker.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_datamarker.m
+END
+main_marker_keylabels.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_marker_keylabels.m
+END
+main_marker_segpoints.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_marker_segpoints.m
+END
+main_seg.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/26/mainscripts/main_seg.m
+END
+main_correctcla.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_correctcla.m
+END
+main_markertest.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_markertest.m
+END
+main_cla2marker.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/59/mainscripts/main_cla2marker.m
+END
+main_reposcleanout.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_reposcleanout.m
+END
+initmain_makegreylist.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_makegreylist.m
+END
+initmain_SpecialPartoffsets.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_SpecialPartoffsets.m
+END
+main_simtaskiterator.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_simtaskiterator.m
+END
+main_reposmarker.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_reposmarker.m
+END
+main_repairkeylabel.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_repairkeylabel.m
+END
+main_simsweep.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_simsweep.m
+END
+main_segstats.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_segstats.m
+END
+main_wavmarker.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_wavmarker.m
+END
+main_segvis.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_segvis.m
+END
+initmain_useslice.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/initmain_useslice.m
+END
+main_convertcla.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_convertcla.m
+END
+main_labelsizehist.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/mainscripts/main_labelsizehist.m
+END

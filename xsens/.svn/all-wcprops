@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/projects/sw-matlab-actlab/!svn/ver/1/xsens
+END
+rot2eul.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/xsens/rot2eul.m
+END
+quat2rotmat.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/xsens/quat2rotmat.m
+END
+xsens_getdist.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/xsens/xsens_getdist.m
+END
+repair_angle.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/xsens/repair_angle.m
+END
+quat2euler.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/xsens/quat2euler.m
+END
+xsens_getdata.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/xsens/xsens_getdata.m
+END

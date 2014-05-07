@@ -1,0 +1,821 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/projects/sw-matlab-actlab/!svn/ver/74/misc
+END
+findtoolboxpath.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/misc/findtoolboxpath.m
+END
+my_isscalar.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/my_isscalar.m
+END
+wire.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/sw-matlab-actlab/!svn/ver/64/misc/wire.m
+END
+row.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/sw-matlab-actlab/!svn/ver/1/misc/row.m
+END
+plot_timeseries.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/misc/plot_timeseries.m
+END
+str2celln.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/11/misc/str2celln.m
+END
+unique_nosort.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/misc/unique_nosort.m
+END
+lsmatfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/59/misc/lsmatfile.m
+END
+print_progress.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/misc/print_progress.m
+END
+cellsqueeze.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/cellsqueeze.m
+END
+process_params.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/misc/process_params.m
+END
+vec2cells.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/misc/vec2cells.m
+END
+matchrow.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/misc/matchrow.m
+END
+isbetween.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/38/misc/isbetween.m
+END
+textlog.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/textlog.m
+END
+timestr.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/timestr.m
+END
+subarray.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/misc/subarray.m
+END
+count.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/sw-matlab-actlab/!svn/ver/1/misc/count.m
+END
+iterator.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/misc/iterator.m
+END
+distance2confidence.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/misc/distance2confidence.m
+END
+errorprinter.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/9/misc/errorprinter.m
+END
+sortm.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/sw-matlab-actlab/!svn/ver/1/misc/sortm.m
+END
+zoom2cursor.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/zoom2cursor.m
+END
+get_matrixelement.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/misc/get_matrixelement.m
+END
+latex.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/sw-matlab-actlab/!svn/ver/1/misc/latex.m
+END
+getusername.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/60/misc/getusername.m
+END
+matrixprint.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/matrixprint.m
+END
+distance2posterior.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/32/misc/distance2posterior.m
+END
+wcl.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/sw-matlab-actlab/!svn/ver/1/misc/wcl.m
+END
+wav_getdata.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/wav_getdata.m
+END
+onesvector.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/onesvector.m
+END
+strmatch_substr.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/74/misc/strmatch_substr.m
+END
+findlongestmatch.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/misc/findlongestmatch.m
+END
+createfields.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/misc/createfields.m
+END
+json_simplewrite.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/misc/json_simplewrite.m
+END
+sandbox.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/sandbox.m
+END
+majorityconf.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/32/misc/majorityconf.m
+END
+w.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/projects/sw-matlab-actlab/!svn/ver/1/misc/w.m
+END
+cat2counted.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/cat2counted.m
+END
+catstruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/misc/catstruct.m
+END
+countele.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/misc/countele.m
+END
+capitalise.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/11/misc/capitalise.m
+END
+test.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/sw-matlab-actlab/!svn/ver/1/misc/test.m
+END
+keep.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/sw-matlab-actlab/!svn/ver/1/misc/keep.m
+END
+matrix2latex.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/misc/matrix2latex.m
+END
+email.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/sw-matlab-actlab/!svn/ver/8/misc/email.m
+END
+serial_clearrxbuffer.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/misc/serial_clearrxbuffer.m
+END
+leadingtrailingspaces.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/misc/leadingtrailingspaces.m
+END
+roundf.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/6/misc/roundf.m
+END
+sloc.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/sw-matlab-actlab/!svn/ver/1/misc/sloc.m
+END
+cell2array.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/cell2array.m
+END
+readtextfilecols.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/66/misc/readtextfilecols.m
+END
+xlsconverterplus.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/misc/xlsconverterplus.m
+END
+parse_json.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/parse_json.m
+END
+findnearestval.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/misc/findnearestval.m
+END
+loadin.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/59/misc/loadin.m
+END
+countwords.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/countwords.m
+END
+cellstr2vcat.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/misc/cellstr2vcat.m
+END
+pdfplot.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/pdfplot.m
+END
+ForAllSubplots.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/misc/ForAllSubplots.m
+END
+label_bibtex.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/misc/label_bibtex.m
+END
+vec2onehot.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/vec2onehot.m
+END
+mat2el.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/1/misc/mat2el.m
+END
+getAvailableComPort.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/misc/getAvailableComPort.m
+END
+isnumeric_str.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/misc/isnumeric_str.m
+END
+blue.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/sw-matlab-actlab/!svn/ver/1/misc/blue.m
+END
+paramtester.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/paramtester.m
+END
+process_options.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/misc/process_options.m
+END
+n_ueber_k.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/misc/n_ueber_k.m
+END
+issquare.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/misc/issquare.m
+END
+majority.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/misc/majority.m
+END
+approxeq.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/misc/approxeq.m
+END
+strhist.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/strhist.m
+END
+tcolor.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/1/misc/tcolor.m
+END
+barerrorbar.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/barerrorbar.m
+END
+convertvector.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/misc/convertvector.m
+END
+modifypath.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/modifypath.m
+END
+getfields.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/misc/getfields.m
+END
+plotmarker.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/plotmarker.m
+END
+strcut.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/1/misc/strcut.m
+END
+zerofilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/zerofilter.m
+END
+dbfilename.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/dbfilename.m
+END
+cell2matrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/cell2matrix.m
+END
+get_structfield.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/misc/get_structfield.m
+END
+isupper.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/isupper.m
+END
+filewrite.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/misc/filewrite.m
+END
+isemptycell.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/53/misc/isemptycell.m
+END
+str2cell.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/11/misc/str2cell.m
+END
+wav_filename.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/misc/wav_filename.m
+END
+strwcmp.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/strwcmp.m
+END
+copyfields.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/copyfields.m
+END
+findfiles.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/11/misc/findfiles.m
+END
+list_classfilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/misc/list_classfilter.m
+END
+hasfrac.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/hasfrac.m
+END
+strcenter.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/misc/strcenter.m
+END
+laprint.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/laprint.m
+END
+keepfields.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/keepfields.m
+END
+col.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/sw-matlab-actlab/!svn/ver/1/misc/col.m
+END
+mat2strq.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/misc/mat2strq.m
+END
+istype.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/1/misc/istype.m
+END
+insertrows.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/insertrows.m
+END
+inifile.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/inifile.m
+END
+intersect_two_spheres.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/misc/intersect_two_spheres.m
+END
+purge.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/sw-matlab-actlab/!svn/ver/1/misc/purge.m
+END
+semaphorefile.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/misc/semaphorefile.m
+END
+mypack.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/1/misc/mypack.m
+END
+cell2str.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/misc/cell2str.m
+END
+matadd.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/1/misc/matadd.m
+END
+my_timedim.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/my_timedim.m
+END
+spy2.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/sw-matlab-actlab/!svn/ver/1/misc/spy2.m
+END
+findn.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/projects/sw-matlab-actlab/!svn/ver/1/misc/findn.m
+END
+tb_scope.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/misc/tb_scope.m
+END
+arff_reader.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/arff_reader.m
+END
+strappend.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/misc/strappend.m
+END
+barweb.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/54/misc/barweb.m
+END
+my_isvector.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/my_isvector.m
+END
+plotfancybars.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/53/misc/plotfancybars.m
+END
+cellappend.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/cellappend.m
+END
+adjustbarbase.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/misc/adjustbarbase.m
+END
+my_time2str.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/my_time2str.m
+END
+printmatrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/printmatrix.m
+END
+tryloadvar.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/59/misc/tryloadvar.m
+END
+fscatter3.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/misc/fscatter3.m
+END
+findseqelement.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/misc/findseqelement.m
+END
+allcomb.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/projects/sw-matlab-actlab/!svn/ver/1/misc/allcomb.m
+END
+purish.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/projects/sw-matlab-actlab/!svn/ver/1/misc/purish.m
+END
+normloglik.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/normloglik.m
+END
+get_tcp_data.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/misc/get_tcp_data.m
+END
+countdown.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/misc/countdown.m
+END
+cellstrmatch.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/28/misc/cellstrmatch.m
+END
+plotfmt.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/51/misc/plotfmt.m
+END
+cmpvectors.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/cmpvectors.m
+END
+latextable.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/misc/latextable.m
+END
+wav_getsize.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/misc/wav_getsize.m
+END
+cellstringprod.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/misc/cellstringprod.m
+END
+str2cellf.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/43/misc/str2cellf.m
+END

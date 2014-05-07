@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/projects/sw-matlab-actlab/!svn/ver/56/fsel
+END
+fselWeightPDF2.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightPDF2.m
+END
+fselPreGetStats.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselPreGetStats.m
+END
+fselWeightMutualInformationII.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightMutualInformationII.m
+END
+fselWeightLDA.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightLDA.m
+END
+fselMI_I.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselMI_I.m
+END
+fselSortCorr.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselSortCorr.m
+END
+fselWeightSpearman.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightSpearman.m
+END
+fselWeightPearson.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightPearson.m
+END
+fselWeightPearsonB.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightPearsonB.m
+END
+fselSortBestN.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselSortBestN.m
+END
+fsel_main.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fsel_main.m
+END
+fselEvalPrintStats.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselEvalPrintStats.m
+END
+fselWeightKRUSKAL.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightKRUSKAL.m
+END
+fselSortCorrDD.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselSortCorrDD.m
+END
+fselPreCreateDummyFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselPreCreateDummyFeatures.m
+END
+fselEvalClassificationII.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselEvalClassificationII.m
+END
+fselWeightMutualInformation.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightMutualInformation.m
+END
+fselMI_II.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselMI_II.m
+END
+fselWeightBinary.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightBinary.m
+END
+fselPreDismissBounds.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselPreDismissBounds.m
+END
+fselsortBestHalf.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselsortBestHalf.m
+END
+fselEvalClassification.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselEvalClassification.m
+END
+fselSortMIFS.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselSortMIFS.m
+END
+fselWeightEntropy.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightEntropy.m
+END
+fselTemplate.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselTemplate.m
+END
+fselWeightPCA.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightPCA.m
+END
+fselModDataByWeight.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselModDataByWeight.m
+END
+fselWeightANOVA.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightANOVA.m
+END
+fselSortSpearman.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselSortSpearman.m
+END
+fselSortPearson.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselSortPearson.m
+END
+fselWeightCorrB.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightCorrB.m
+END
+fselPrePrintStats.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselPrePrintStats.m
+END
+fselEvalFeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/56/fsel/fselEvalFeatures.m
+END
+fselPostApplyWeights.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/52/fsel/fselPostApplyWeights.m
+END
+fselWeightRandom.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightRandom.m
+END
+fselWeightRandomForests_BuildSplit.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightRandomForests_BuildSplit.m
+END
+fselWeightRandomForests_BuildTree.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightRandomForests_BuildTree.m
+END
+fselWeightRandomForests.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselWeightRandomForests.m
+END
+fselEvalConfMat.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/fsel/fselEvalConfMat.m
+END

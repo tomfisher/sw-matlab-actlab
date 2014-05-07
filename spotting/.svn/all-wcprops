@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/projects/sw-matlab-actlab/!svn/ver/59/spotting
+END
+main_spotevents.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/main_spotevents.m
+END
+spot_isfile.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/spot_isfile.m
+END
+similarity_train.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/similarity_train.m
+END
+main_spotidentify.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/6/spotting/main_spotidentify.m
+END
+similarity_findthresholds.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/similarity_findthresholds.m
+END
+main_spotcombine.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/main_spotcombine.m
+END
+similarity.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/similarity.m
+END
+spot_segmentmerge.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/spot_segmentmerge.m
+END
+main_spotclassify.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/main_spotclassify.m
+END
+prepallspotresults.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/prepallspotresults.m
+END
+estimatethresholddensity.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/6/spotting/estimatethresholddensity.m
+END
+main_spotfeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/59/spotting/main_spotfeatures.m
+END
+main_spotloadfeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/main_spotloadfeatures.m
+END
+spot_converthresarrays.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/spot_converthresarrays.m
+END
+similarity_eval.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/similarity_eval.m
+END
+main_spotsweep.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/6/spotting/main_spotsweep.m
+END
+prepspotresults.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/prepspotresults.m
+END
+spot_loadcvresults.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/spot_loadcvresults.m
+END
+spot_findfeaturefile.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/spot_findfeaturefile.m
+END
+main_spotsearchdepth.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/main_spotsearchdepth.m
+END
+main_spotfindfeaturefile.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/main_spotfindfeaturefile.m
+END
+main_spotstats.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/main_spotstats.m
+END
+spot_convertfiles.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/spot_convertfiles.m
+END
+similarity_dist.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/similarity_dist.m
+END
+spot_resultmetrics.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/spot_resultmetrics.m
+END
+main_spotloadresults.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/main_spotloadresults.m
+END
+main_spotfusion.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/spotting/main_spotfusion.m
+END
+spot_createcvsplit.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/6/spotting/spot_createcvsplit.m
+END

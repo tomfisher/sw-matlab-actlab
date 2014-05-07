@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/projects/sw-matlab-actlab/!svn/ver/1/statistics
+END
+cohenkappa.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/cohenkappa.m
+END
+ppdistcoords.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/ppdistcoords.m
+END
+logistic.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/logistic.m
+END
+lin_reg.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/lin_reg.m
+END
+ICC1.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/ICC1.m
+END
+ICC2.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/ICC2.m
+END
+fleiss.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/fleiss.m
+END
+mregestimate.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/mregestimate.m
+END
+varmat.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/varmat.m
+END
+regressionloo.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/regressionloo.m
+END
+kappa.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/kappa.m
+END
+cochranqtest.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/cochranqtest.m
+END
+regressionstats.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/regressionstats.m
+END
+var2corr.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/var2corr.m
+END
+anova_rm.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/anova_rm.m
+END
+ppdist.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/projects/sw-matlab-actlab/!svn/ver/1/statistics/ppdist.m
+END

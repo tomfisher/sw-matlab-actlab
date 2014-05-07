@@ -1,0 +1,85 @@
+function [result startpoint] = sswindow(signal, WindowSize, StepSize, proc, varargin)
+% function [result startpoint] = sswindow(signal, WindowSize, StepSize, proc, varargin)
+%
+% This function evaluates the expression given in 'proc' for a given vector
+% using a sliding window defined by WindowSize, StepSize. To reference the
+% current data window in 'proc' the variable 'yt' may be used.
+%
+% This example for 'proc' will apply a slinding mean (averaging) to the
+% data provided in 'signal': proc = 'mean(yt)'
+%
+% See also: swindow
+%
+% Copyright 2006, 2008 Oliver Amft
+
+[mode] = process_options(varargin, 'mode', 'exit');
+
+if size(signal,1) < WindowSize
+    fprintf('\n%s: Signal vector is smaller than window.', mfilename);
+
+    switch lower(mode)
+        case {'exit', 'floor'}
+            result = [];
+            return;
+    end;
+end;
+
+% probing proc
+proberesult = swindow_caller( proc, signal(1:WindowSize,:) );
+result = nan(ceil(size(signal,1)/StepSize), size(proberesult,2));
+
+% running sliding window
+for startpoint = 1 : StepSize : size(signal,1)
+    endpoint = startpoint+WindowSize-1;
+
+    if endpoint <= size(signal,1)  % not the last window
+        yt = signal(startpoint:endpoint,:);
+
+        %     if (size(yt,1) == WindowSize)
+        thisresult = swindow_caller(proc, yt);
+%         if size(thisresult,2) == 1
+%             thisresult = thisresult';
+%         end;
+%         result = [result; thisresult];
+        result((startpoint-1)/StepSize+1,:) = thisresult;
+
+    else  % last window
+        endpoint = size(signal,1);
+        yt = signal(startpoint:endpoint,:);
+
+        switch(lower(mode))
+            case {'pad', 'padzero'}
+                % Padding non-aligned data
+%                 result = [result; repmat(0, size(yt,2), 1)];
+                result((startpoint-1)/StepSize+1:end,:) = [];
+                result((startpoint-1)/StepSize+1,:) = repmat(0, size(proberesult,2), 1);
+
+            case {'exit', 'floor'}
+                % Terminiate processing here
+                result((startpoint-1)/StepSize+1:end,:) = [];
+                break;
+
+            case {'cont', 'continue', 'ceil'}
+                % Continue with smaller windows
+                if ( size(yt,1) )
+                    thisresult = swindow_caller(proc, yt);
+%                     if size(thisresult,2) == 1
+%                         thisresult = thisresult';
+%                     end;
+%                     result = [result; thisresult];
+                   result((startpoint-1)/StepSize+1:end,:) = [];
+                   result((startpoint-1)/StepSize+1,:) = thisresult;
+                end;
+
+            otherwise
+                error([mfilename ': Mode ' lower(mode) ' not understood!']);
+        end;
+    end;
+
+end; % for startpoint
+
+
+function r = swindow_caller(proc, yt)
+% proc is a string using yt. This is done to allow Matlab parsing the call
+r = eval(proc);
+% if size(r,2) == 1, r = r'; end;

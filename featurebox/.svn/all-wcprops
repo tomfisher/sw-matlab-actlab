@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/projects/sw-matlab-actlab/!svn/ver/75/featurebox
+END
+makefeatures_segment.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/makefeatures_segment.m
+END
+makefeatures_fusion.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/makefeatures_fusion.m
+END
+feature_SSKEWNESS.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_SSKEWNESS.m
+END
+feature_SOERATIO.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_SOERATIO.m
+END
+feature_filter.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_filter.m
+END
+feature_naivepeaks.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_naivepeaks.m
+END
+feature_ACF.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_ACF.m
+END
+feature_ENERGY.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_ENERGY.m
+END
+feature_SCENTROID.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_SCENTROID.m
+END
+feature_fRSA.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_fRSA.m
+END
+fb_findusedfeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_findusedfeatures.m
+END
+fb_composefstring.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_composefstring.m
+END
+fb_getdatasize.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_getdatasize.m
+END
+makefeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/75/featurebox/makefeatures.m
+END
+makedatastruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/30/featurebox/makedatastruct.m
+END
+fb_makefeatureset.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/55/featurebox/fb_makefeatureset.m
+END
+feature_rms.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_rms.m
+END
+sswindow.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/sswindow.m
+END
+fb_featurestringprod.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_featurestringprod.m
+END
+feature_ROLLOFF.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_ROLLOFF.m
+END
+feature_TRISTIMULUS.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_TRISTIMULUS.m
+END
+feature_FRACDIM.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_FRACDIM.m
+END
+feature_SKURTOSIS.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_SKURTOSIS.m
+END
+fb_computefeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_computefeatures.m
+END
+feature_HRVBANDS.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_HRVBANDS.m
+END
+feature_windowise.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_windowise.m
+END
+fb_getelements.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_getelements.m
+END
+feature_SENERGY.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_SENERGY.m
+END
+feature_CWTHRV.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_CWTHRV.m
+END
+feature_emgfilter.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_emgfilter.m
+END
+fb_expandfeaturestring.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/projects/sw-matlab-actlab/!svn/ver/75/featurebox/fb_expandfeaturestring.m
+END
+swindow.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/swindow.m
+END
+feature_fft.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_fft.m
+END
+fb_getsources.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_getsources.m
+END
+feature_LPCC.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_LPCC.m
+END
+fb_checknloaddata.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_checknloaddata.m
+END
+fb_modifydatastruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_modifydatastruct.m
+END
+feature_detrending.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_detrending.m
+END
+feature_POLYFIT.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_POLYFIT.m
+END
+feature_BANDS.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/23/featurebox/feature_BANDS.m
+END
+fb_findforsources.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_findforsources.m
+END
+fb_findfeaturefile.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/74/featurebox/fb_findfeaturefile.m
+END
+feature_FLUC.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_FLUC.m
+END
+feature_CWT.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_CWT.m
+END
+feature_DWT.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_DWT.m
+END
+fb_createdatastruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_createdatastruct.m
+END
+feature_ZCR.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_ZCR.m
+END
+feature_FFTHRV.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_FFTHRV.m
+END
+feature_simpleupsample.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_simpleupsample.m
+END
+feature_SSPREAD.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_SSPREAD.m
+END
+makefeatures_event.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/makefeatures_event.m
+END
+feature_SUM.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_SUM.m
+END
+feature_findpeaks.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_findpeaks.m
+END
+feature_mfcc.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/projects/sw-matlab-actlab/!svn/ver/10/featurebox/feature_mfcc.m
+END
+fb_loadfeatures.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_loadfeatures.m
+END
+makefeatures_dummy.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/makefeatures_dummy.m
+END
+feature_CEPSTRAL.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_CEPSTRAL.m
+END
+feature_DWTHRV.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_DWTHRV.m
+END
+fb_createdummystruct.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/fb_createdummystruct.m
+END
+feature_BWIDTH.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/projects/sw-matlab-actlab/!svn/ver/1/featurebox/feature_BWIDTH.m
+END
