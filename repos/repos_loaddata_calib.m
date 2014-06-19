@@ -1,4 +1,4 @@
-function [Data orgsps DTable] = repos_loaddata(Repository, Partindex, DataType, varargin)
+function [Data orgsps DTable] = repos_loaddata_calib(Repository, Partindex, DataType, varargin)
 % function [Data orgsps] = repos_loaddata(Repository, Partindex, DataType, varargin)
 %
 % Load data as directed by arguments and options.
@@ -26,7 +26,6 @@ function [Data orgsps DTable] = repos_loaddata(Repository, Partindex, DataType, 
 %
 % Bugfix for changed behaviour of cellstrmatch, Gabriele, 07-11-2012
 
-input('\n\n IMPORTANT: ARE YOU SURE YOU DON T WANT TO USE REPOS_LOADDATA_CALIB?\n\n');
 
 [ApplyFilter Range Channels ErrorOnNoData ErrorOnNoFile orgsps verbose] = process_options(varargin, ...
     'ApplyFilter', false, 'Range', [1 inf], 'Channels', {}, 'ErrorOnNoData', true, 'ErrorOnNoFile', true, 'orgsps', nan, 'verbose', 0);
@@ -76,7 +75,14 @@ switch DataType_tokens{1}
             fprintf('\n%s: File %s not found.', mfilename, DataFile);
         else
             frewind(fid);
-            Data = fread(fid, [5, Inf], 'uint16')';     % [M,N]  read elements to fill an M-by-N matrix, in column order.
+            switch DataType_tokens{2}
+                case {'ECG1', 'Sync'} 
+                    Data_uncalibrated = fread(fid, [5, Inf], 'uint16')';     % [M,N]  read elements to fill an M-by-N matrix, in column order.
+                    
+                case {'WristL', 'WristR', 'AnkleR'}
+                    Data_uncalibrated = fread(fid, [6, Inf], 'uint16')';     % [M,N]  read elements to fill an M-by-N matrix, in column order.
+            end
+            Data = calibrate_shimmer_acc(DataType_tokens{2},Data_uncalibrated);
             orgsps = 200;
         end;
         if ~isempty(Data)
