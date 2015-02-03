@@ -26,7 +26,7 @@ function [Data orgsps DTable] = repos_loaddata(Repository, Partindex, DataType, 
 %
 % Bugfix for changed behaviour of cellstrmatch, Gabriele, 07-11-2012
 
-input('\n\n IMPORTANT: ARE YOU SURE YOU DON T WANT TO USE REPOS_LOADDATA_CALIB?\n\n');
+% input('\n\n IMPORTANT: ARE YOU SURE YOU DON T WANT TO USE REPOS_LOADDATA_CALIB?\n\n');
 
 [ApplyFilter Range Channels ErrorOnNoData ErrorOnNoFile orgsps verbose] = process_options(varargin, ...
     'ApplyFilter', false, 'Range', [1 inf], 'Channels', {}, 'ErrorOnNoData', true, 'ErrorOnNoFile', true, 'orgsps', nan, 'verbose', 0);
@@ -70,15 +70,9 @@ DataType_tokens = str2cellf(DataType, '_');
 switch DataType_tokens{1}
 
     case 'Shimmer'   % supertype
-        fid = fopen(DataFile);
-        if fid < 0
-            Data = [];  orgsps = [];
-            fprintf('\n%s: File %s not found.', mfilename, DataFile);
-        else
-            frewind(fid);
-            Data = fread(fid, [5, Inf], 'uint16')';     % [M,N]  read elements to fill an M-by-N matrix, in column order.
-            orgsps = 200;
-        end;
+        Data = csvread(DataFile);
+        orgsps = 170.70;
+
         if ~isempty(Data)
             Data = Data(:,channelnrs);  DTable = DTable(channelnrs);
         else

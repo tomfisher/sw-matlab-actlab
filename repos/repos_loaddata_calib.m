@@ -83,7 +83,7 @@ switch DataType_tokens{1}
                     Data_uncalibrated = fread(fid, [6, Inf], 'uint16')';     % [M,N]  read elements to fill an M-by-N matrix, in column order.
             end
             Data = calibrate_shimmer_acc(DataType_tokens{2},Data_uncalibrated);
-            orgsps = 200;
+            orgsps = 170.67;
         end;
         if ~isempty(Data)
             Data = Data(:,channelnrs);  DTable = DTable(channelnrs);
